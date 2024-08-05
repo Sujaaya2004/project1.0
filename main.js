@@ -20,24 +20,24 @@ const scrollRevealOption = {
   duration: 1000,
 };
 
-ScrollReveal().reveal(".header__image img", {
+ScrollReveal().reveal(".abt1 img", {
   ...scrollRevealOption,
-  origin: "right",
+  origin: "left",
 });
-ScrollReveal().reveal(".header__content h2", {
+ScrollReveal().reveal(".abt2 h1", {
   ...scrollRevealOption,
   delay: 500,
 });
-ScrollReveal().reveal(".header__content h1", {
+ScrollReveal().reveal(".abt2 h2", {
   ...scrollRevealOption,
   delay: 1000,
 });
 
-ScrollReveal().reveal(".order__card", {
+ScrollReveal().reveal(".item", {
   ...scrollRevealOption,
   interval: 500,
 });
 
-ScrollReveal().reveal(".event__content", {
+ScrollReveal().reveal(".res", {
   duration: 1000,
 });
